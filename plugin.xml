@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            name="First e4 application">
+         <property
+               name="applicationXMI"
+               value="de.vogella.e4.rcp.first/Application.xmi">
+         </property>
+         <property
+               name="appName"
+               value="First e4 application">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/de.vogella.e4.rcp.first/css/myfirststylesheet.css">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="org.eclipse.e4.workbench.parts">
+      <part
+            class="de.vogella.e4.rcp.first.parts.View1"
+            label="View 1"
+            parentId="de.vogella.e4.rcp.first.part1">
+      </part>
+   </extension>
+</plugin>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="First e4 application" uid="de.vogella.e4.rcp.first" id="de.vogella.e4.rcp.first.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0" useFeatures="false" includeLaunchers="true">
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+   </launcherArgs>
+
+   <plugins>
+      <plugin id="de.vogella.e4.rcp.first"/>
+   </plugins>
+
+
+</product>
