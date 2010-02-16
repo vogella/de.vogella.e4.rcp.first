@@ -2,16 +2,12 @@ package de.vogella.e4.rcp.first.parts;
 
 import javax.inject.Inject;
 
-import org.eclipse.e4.core.services.Logger;
-import org.eclipse.e4.core.services.annotations.PostConstruct;
-import org.eclipse.e4.core.services.context.IEclipseContext;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.Text;
-import org.osgi.service.log.LogService;
 
 public class View1 {
 
