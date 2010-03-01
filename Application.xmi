@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
-<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2008/UIModel" id="Application">
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2008/UIModel" xsi:schemaLocation="http://www.eclipse.org/ui/2008/UIModel ../org.eclipse.e4.ui.model.workbench/model/UIElements.ecore" xmi:id="_SeXUAO8EEd6FC9cDb6iV7g" id="_SeXUAO8EEd6FC9cDb6iV7g">
   <children xsi:type="application:Window" label="My first e4 application" iconURI="" tooltip="" id="Window" onTop="true" width="200" height="200">
-    <children xsi:type="application:Part" id="View1" style="" URI="platform:/plugin/de.vogella.e4.rcp.first/de.vogella.e4.rcp.first.parts.View1" containerData="" label="Hallo" tooltip=""/>
+    <children xsi:type="application:Part" id="View1" URI="platform:/plugin/de.vogella.e4.rcp.first/de.vogella.e4.rcp.first.parts.View1" containerData="" label="Hallo" tooltip=""/>
     <children xsi:type="application:WindowTrim">
       <children xsi:type="application:ToolBar">
         <children xsi:type="application:DirectToolItem" URI="platform:/plugin/de.vogella.e4.rcp.first/de.vogella.e4.rcp.first.handlers.ExitHandler" label="Exit"/>
